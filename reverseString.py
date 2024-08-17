@@ -3,7 +3,7 @@
 
 import sys
 
-def echo_the_void(arg):
+def echo_the_string(arg):
     print("String reversed:",arg[::-1]) 
 
 if __name__ == "__main__":
