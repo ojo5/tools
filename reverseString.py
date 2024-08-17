@@ -1,6 +1,3 @@
-# Python program to demonstrate
-# command line arguments
-
 import sys
 
 def reverse_string(arg):
