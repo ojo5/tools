@@ -3,7 +3,7 @@
 
 import sys
 
-def echo_the_string(arg):
+def reverse_string(arg):
     print("String reversed:",arg[::-1]) 
 
 if __name__ == "__main__":
@@ -15,5 +15,5 @@ if __name__ == "__main__":
 
     else:
         print("Original string:",sys.argv[1])
-        echo_the_void(sys.argv[1])
+        reverse_string(sys.argv[1])
 
